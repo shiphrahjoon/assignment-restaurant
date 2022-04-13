@@ -1,0 +1,244 @@
+dy{
+    background-color: #ae0366;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    }
+    .container{
+        background-color: #A23B72;
+        width: 80%;
+        margin:0 auto;
+    }
+    h1.title{
+        text-transform: uppercase;
+        color: #F18F01;
+        text-align: left;
+        font-weight: 300;
+        font-size: 42px;
+        padding:24px;
+    }
+    h1.title:hover{
+        text-decoration: overline;
+        color:#2E86AB ;
+        transition: 0.5s ease-in-out;
+         }
+         /* Navigation bar styles */
+         .navbar{
+             background-color: #d65780;
+             overflow: hidden;
+             }
+             .navbar ul li{
+                 list-style-type: none;
+                 float: left;
+                 padding: 20px 15px;
+                 border-right: 5px solid #DE0D92 ;
+             }
+             .navbar ul li a{
+                 text-decoration: none;
+                 color: white;
+                 text-transform: uppercase;
+                 font-weight: 400;
+                 font-size: 24px;
+                 font-style: italic;
+             }
+             .navbar ul li:hover{
+                 background-color: #C73E1D;
+                 }
+                 .navbar ul li:hover a {
+                    text-decoration: underline;
+                    color: black; 
+                    transition: .7s ease-in-out;
+                 }
+                 /* slider section styling*/
+                 .slider{
+                     background-image: url('../images/image\ 1.jpeg');
+                     min-height: 70vh;
+                     background-size:cover;
+                     background-repeat:no-repeat ;
+                     display: flex;
+                     flex-direction:column ;
+                     justify-content: center;
+                     align-items: center;
+                 }
+                 .slider h2{
+                     color: #A23B72;
+                     border: 2px solid #2E86AB;
+                     padding: 15px; 20px ;
+                     border-radius:100%;
+                     opacity: 0.9;
+                 }
+                 .slider button{
+                     background-color: azure;
+                     color: #ae0366;
+                     border: 2px solid ;
+                     padding :12px 42px;
+                     border-radius: 10%;
+                     cursor: grab;
+
+
+                 }
+                 .slider button:hover{
+                     color: aliceblue;
+                     transition:6s ease-in-out ;
+                 }
+                 title:hover{
+                    text-decoration: overline;
+                    color: #36f1cc;
+                    font-weight: 900;
+                    transition: 5s ease-in-out;
+                }
+                .top-menu{
+                    background-color: #F1365B;
+                    overflow: hidden;
+                }
+                
+                /* Nesting in CSS  */
+                /* ctrl + /  to generate a comment in css */
+                .top-menu ul li{
+                    list-style-type: none;
+                    float: left; /* Aligns the li in a horizontal way */
+                    border-right: 2px solid #36f1cc; /* creates the line on the right of a tag */ 
+                    padding: 15px 20px; /* padding top/bottom and padding right/left */
+                }
+                
+                .top-menu ul li a{
+                    text-decoration: none;
+                    color: #36f1cc;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-size: 24px;
+                }
+                
+                /* Hover effect */
+                .top-menu ul li:hover{
+                    background-color: #36f1cc;
+                }
+                /* Hover effects on a child */
+                .top-menu ul li:hover a{
+                    text-decoration: underline;
+                    color: #F1365B;
+                }
+                
+                /* Image part */
+                /* .bg-image img{
+                    width: 100%;
+                    height: 60vh;
+                } */
+                
+                .bg-image{
+                    background-image: url('./images/1.jpg');
+                    background-size: cover;
+                    min-height: 70vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    background-attachment: fixed;
+                }
+                .bg-image h2{
+                    color: #36f1cc;
+                    background-color: #F1365B;
+                    padding: 32px;
+                    opacity: .6;
+                    border: 2px solid #F1365B;
+                }
+                
+                .btn{
+                    background-color: #ffffff;
+                    color: #F1365B;
+                    border: 1px solid #F1365B;
+                    padding: 12px 42px;
+                    border-radius: 10px;
+                    cursor: grabbing;
+                }
+                .btn:hover{
+                    background-color: #F1365B;
+                    color: #ffffff;
+                    transition-duration: .6s;
+                }
+                
+                .welcome p{
+                    width: 60%;
+                    text-align: center;
+                    font-weight: 500;
+                    line-height: 32px;
+                }
+                .welcome{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding-top: 40px;
+                    padding-bottom: 20px;
+                }
+                
+                .row{
+                    display: flex;
+                    flex-direction: row;
+                }
+                .row-2{
+                    display: flex;
+                    flex-direction: row-reverse;
+                }
+                
+                .col{
+                    max-width: 50%;
+                }
+                .img-fluid{
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                }
+                .px-3{
+                    padding-left: 32px;
+                    padding-right: 32px;
+                }
+                .py-4{
+                    padding-top: 32px;
+                    padding-bottom: 40px;
+                }
+                .text-start{
+                    text-align: left !important; 
+                }
+                .text-center{
+                    text-align: center!important;
+                }
+                .text-end{
+                    text-align: right!important;
+                }
+                .credit{
+                    background: rgb(0,36,16);
+                    background: linear-gradient(90deg, rgba(0,36,16,1) 5%, rgba(121,9,9,1) 35%, rgba(0,212,255,1) 100%); 
+                    
+                }
+                .credit p{
+                    color: #ffffff;
+                    font-size: 24px;
+                }
+                
+                .credit:hover{
+                    transform: rotate(1deg);
+                    transition-duration: .3s;
+                }
+                .home-slider img{
+                    height: 70vh!important;
+                }
+                .home-slider .carousel-caption{
+                    background: skyblue;
+                    padding-top: 42px!important;
+                    padding-bottom: 42px!important;
+                }
+                .home-slider .carousel-caption h5{
+                    font-size: 32px;
+                    letter-spacing: 3px;
+                    color: blueviolet;
+                }
+                .program img{
+                    max-height: 300px;
+                
+                }
+                .program card{
+                    margin-top: 24px ;
+                    margin-bottom: 24px;
+                }
+                
+                
